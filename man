@@ -1,0 +1,10 @@
+public class CreativeHelloWorld {
+    public static void main(String[] args) throws InterruptedException {
+        String message = "Hello, World!";
+        for (char c : message.toCharArray()) {
+            System.out.print(c);
+            Thread.sleep(100);
+        }
+        System.out.println();
+    }
+}
